@@ -1,0 +1,1072 @@
+/* Jay Shree Ram */
+
+@font-face {
+    font-family: "domain";
+    src: url(./Assets/5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+
+@font-face {
+    font-family: "conopi";
+    src: url(./Assets/616fd1dd00cf6c70f978fc69_Canopee.ttf);
+}
+
+@font-face {
+    font-family: 'editorial';
+    src: url(./Assets/5f242a694256f02b944d5767_EditorialNew-Light.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #1C1C19;
+}
+
+#page1{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: #C6BEB5;
+    overflow: hidden;
+}
+
+#nav{
+    width: 100%;
+    height: 12vh;
+    border-bottom: 1px solid #716E68;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+}
+
+#nav img{
+    width: 16%;
+    object-fit: cover;
+}
+
+#nav h4{
+    font-size: 1.5vw;
+    font-weight: 100;
+    width: 30%;
+}
+
+#nav i{
+    width: 30%;
+    text-align: right;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+#elems{
+    width: 100%;
+    height: 56vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+#elems1{
+    width: 30%;
+    height: 100%;
+}
+
+#elems1 .image-conatainer{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#elems1 .image-conatainer:hover img{
+    scale: 1.2;
+    transition: all ease 0.6s;
+}
+
+#elems1 .image-conatainer img{
+    width: 100%;
+    height: 100%;
+}
+
+#elems1 h3{
+    font-size: 2vw;
+    font-family: 'conopi';
+    margin: 2vh 0 ;
+    font-weight: 100;
+    color: #1C1C19;
+}
+
+#elems1 h3 span{
+    background-color: #BC6E51;
+    border-radius: 1vw;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 100;
+    padding: 4px 10px;
+    margin-left: 1vw;
+}
+
+#elems1 p{
+    font-size: 1.5vw;
+    font-family: 'domain';
+    font-weight: 100;
+    color: #5D5A55;
+}
+
+#elems2{
+    width: 28%;
+    height: 100%;
+    text-align: center;
+    border-left: 2px solid #716E68 ;
+    border-right: 2px solid #716E68 ;
+    padding: 0 4vw;
+}
+
+#elems2 h1{
+    font-size: 4vw;
+    font-family: "conopi";
+    font-weight: 100;
+    margin-bottom: 1.5vw;
+    color: #1C1C19;
+}
+
+#elems2 h3{
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: 'editorial';
+    margin-bottom: 2vw;
+    color: #1C1C19;
+}
+
+#elems2 h4 span{
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-family: 'editorial';
+    color: #1C1C19;
+}
+
+#elems2 h4{
+    font-size: 1.6vw;
+    font-weight: 100;
+    font-family: 'domain';
+    color: #5D5A55;
+}
+
+#elems3{
+    width: 30%;
+    height: 100%;
+}
+
+#elems3 .image-conatainer{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#elems3 .image-conatainer:hover img{
+    scale: 1.2;
+    transition: all ease 0.6s;
+}
+
+#elems3 .image-conatainer img{
+    width: 100%;
+    height: 100%;
+}
+
+#elems3 h3{
+    font-size: 2vw;
+    font-family: 'conopi';
+    margin: 2vh 0 ;
+    font-weight: 100;
+    color: #1C1C19;
+}
+
+#elems3 h3 span{
+    background-color: #BC6E51;
+    border-radius: 1vw;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 100;
+    padding: 4px 10px;
+    margin-left: 1vw;
+}
+
+#elems3 p{
+    font-size: 1.5vw;
+    font-family: 'domain';
+    font-weight: 100;
+    color: #5D5A55;
+}
+
+#h1Container{
+    width: 96%;
+    height: 70vh;
+    background-color: #1C1C19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+}
+
+#h1Container h1{
+    font-family: 'conopi';
+    font-size: 34vw;
+    font-weight: 100;
+    color: #C3BBB2;
+    letter-spacing: -5px;
+    line-height: 30vw;
+}
+
+
+#page2{
+    width: 100%;
+    height: 180vh;
+    background-color: #C1BAB0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10vh 0;
+}
+
+#page2Left{
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    border-right: 2px solid #706D67;
+}
+
+#page2Left h1{
+    font-family: 'conopi';
+    font-size: 7vw;
+    font-weight: 100;
+}
+
+#page2Left h1 span{
+    font-size: 9vw;
+    font-family: 'conopi';
+    font-size: 14vw;
+    font-weight: 100;
+    line-height: 10vw;
+}
+
+#page2Left img{
+    width: 100%;
+    height: 45%;
+    border: 1px solid #000;
+
+}
+
+#page2Left p{
+    font-family: 'domain';
+    font-size: 2vw;
+    font-weight: 100;
+    color: #1C1C1A;
+}
+
+#page2Left p span{
+    font-size: 4vw;
+    background-color:#1C1C1A;
+    color: #C3BBB2;
+    padding:0 1vh;
+}
+#page2Right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#page2Right img{
+    width: 97%;
+    height: 52%;
+    border: 1px solid #000;
+}
+
+#page2Right h1{
+    font-family: 'conopi';
+    font-size: 7.4vw;
+    font-weight: 100;
+    color: #1C1C1A;
+    line-height: 8.4vw;
+}
+
+#page3{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-color: #C1BAB0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 0 ;
+}
+
+#page3H1Container{
+    width: 70%;
+    height: 80%;
+    background-color: #1C1C19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+}
+
+#page3H1Container h1{
+    font-family: 'conopi';
+    font-size: 26vw;
+    font-weight: 100;
+    color: #C3BBB2;
+    letter-spacing: -5px;
+    line-height: 26vw;
+}
+
+#page3 img{
+    margin-right: 2vw;
+}
+
+#page4{
+    width: 100%;
+    height: 140vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C5BDB3;
+    padding: 4vh 0;
+}
+
+#page4Left{
+    width: 64%;
+    height: 100%;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page4LeftTop{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#elems4{
+    width: 50%;
+    height: 100%;
+    text-align: start;
+    border-right: 2px solid #716E68 ;
+    padding: 0 4vw;
+}
+
+#elems4 h1{
+    font-size: 3.4vw;
+    font-family: "conopi";
+    font-weight: 100;
+    margin-bottom: 1.5vw;
+    color: #1C1C19;
+}
+
+#elems4 h3{
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: 'editorial';
+    margin-bottom: 2vw;
+    color: #1C1C19;
+}
+
+#elems4 h4 span{
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-family: 'editorial';
+    color: #1C1C19;
+}
+
+#elems4 h4{
+    font-size: 1.6vw;
+    font-weight: 100;
+    font-family: 'domain';
+    color: #5D5A55;
+}
+
+#elems5{
+    width: 45%;
+    height: 100%;
+}
+
+#elems5 .image-conatainer{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#elems5 .image-conatainer:hover img{
+    scale: 1.2;
+    transition: all ease 0.6s;
+}
+
+#elems5 .image-conatainer img{
+    width: 100%;
+    height: 100%;
+}
+
+#elems5 h3{
+    font-size: 2vw;
+    font-family: 'conopi';
+    margin: 2vh 0 ;
+    font-weight: 100;
+    color: #1C1C19;
+}
+
+#elems5 h3 span{
+    background-color: #BC6E51;
+    border-radius: 1vw;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 100;
+    padding: 4px 10px;
+    margin-left: 1vw;
+}
+
+#elems5 p{
+    font-size: 1.5vw;
+    font-family: 'domain';
+    font-weight: 100;
+    color: #5D5A55;
+}
+
+
+#page4mainImg{
+    width: 100%;
+    height: 62%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+
+#page4Right{
+    width: 36%;
+    height: 100%;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page4Right h1{
+    font-family: 'conopi';
+    font-size: 6vw;
+    font-weight: 100;
+    color: #1C1C1A;
+}
+
+#page4Right h1 span{
+    font-family: 'conopi';
+    font-size: 14vw;
+    font-weight: 100;
+    line-height: 10vw;
+    color: #1C1C1A;
+}
+
+#page4Right p{
+    font-family: 'domain';
+    font-size: 2.3vw;
+    font-weight: 100;
+    color: #3B3935;
+}
+
+#page4Right p span{
+    font-size: 3vw;
+    background-color:#1C1C1A;
+    font-weight: 100;
+    padding:0 1vh;
+    color: #C3BBB2;
+}
+
+#roundDiv {
+    height: 20%;
+    background-color: #CAC1B6;
+    border: 1px solid #2f2f2fc6;
+    border-radius: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#roundDiv h2 {
+    font-size: 4vw;
+    font-weight: 100;
+    font-family: conopi;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-26%);
+    transition: all ease 0.6s;
+}
+
+#roundDiv img {
+    height: 60px;
+    transition: all ease 0.6s;
+    transform: translateX(-120%);
+}
+
+#roundDiv:hover img {
+    transform: translateX(76%);
+
+}
+
+#roundDiv:hover h2 {
+    transform: translateX(100%);
+}
+
+#page5{
+    width: 100%;
+    height: 30vh;
+    background-color: #C6BEB5;
+    padding: 4% 2%;
+    border-top: 1px solid #706D67;
+    border-bottom: 1px solid #706D67;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'conopi';
+}
+
+.page5Box{
+    width: 22%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page5BoxLeft{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.page5BoxLeft h3{
+    color: #3B3935;
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: domain;
+}
+
+.page5BoxLeft h2{
+    color: #000;
+    font-size: 4.2vw;
+    font-weight: 100;
+}
+
+.page5BoxRight h1{
+    color: #000;
+    font-size: 8vw;
+}
+
+#page6{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    background-color: #C6BEB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0 10vh 0;
+}
+
+#page6Left{
+    width: 48%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page6LeftTop{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page6LeftTop img{
+    width: 30%;
+    height: 84%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+#page6LeftTop h1{
+    width: 70%;
+    font-family: 'conopi';
+    font-size: 24vw;
+    font-weight: 100;
+}
+
+#page6LeftBottom{
+    width: 100%;
+    height: 48%;
+}
+
+#page6LeftBottom h1{
+    width: 70%;
+    font-family: 'conopi';
+    font-size: 24vw;
+    font-weight: 100;
+}
+
+
+#page6Right{
+    width: 48%;
+    height: 100%;
+}
+
+#page6Right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page7{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2% 1% 2%;
+    background-color: #C6BEB5;
+}
+
+#page7 img{
+    width: 26%;
+    height: 84%;
+    border: 1px solid #000000;
+}
+
+#page7 h1{
+    width: 70%;
+    font-family: 'conopi';
+    font-size: 23.4vw;
+    font-weight: 100;
+    color: #1C1C19;
+}
+
+#page8{
+    width: 100%;
+    height: 50vh;
+    padding: 0 2% 2%;
+    position: relative;
+    background-color: #C6BEB5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#page8Left{
+    width: 60%;
+    height: 100%;
+    background-color: #1C1C19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+#page8Left h1{
+    font-family: 'conopi';
+    font-size: 23.4vw;
+    font-weight: 100;
+    color: #C3BBB2;
+    letter-spacing: -5px;
+}
+
+
+#page8Right{
+    width: 36%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+#page8Right h1{
+    font-family: 'conopi';
+    font-size: 8vw;
+    font-weight: 100;
+    color: #1B1B19;
+}
+
+
+#page8Right h3{
+    font-family: 'domain';
+    font-size: 1.8vw;
+    font-weight: 100;
+    color: #1B1B19;
+    line-height: 1.2;
+}
+
+#page9{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-color: #C6BEB5;
+    padding: 0% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.page9Card{
+    width: 30%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page9CardInner{
+    width: 96%;
+    height: 96%;
+    border: 2px dotted black;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2%;
+}
+
+.page9CardInner h2{
+    font-family: 'domain';
+    font-weight: 100;
+    font-size: 2vw;
+    color: #1C1C1A;
+    text-decoration: underline #5D5A55;
+}
+
+.page9CardInnerBottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page9CardInnerBottom img{
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 50%;
+    margin-right: 3vw;
+}
+
+.page9CardInnerBottom h1{
+    font-weight: 100;
+}
+
+.page9CardInnerBottom h3{
+    font-weight: 100;
+    color: #1C1C1A;
+}
+
+#page10{
+    width: 100%;
+    height: 60vh;
+    padding: 0% 2%;
+    position: relative;
+    background-color: #C6BEB5;
+    border-top: 2px solid #716E68 ;
+    border-bottom: 2px solid #716E68 ;
+}
+
+
+
+#elemsPage10{
+    width: 100%;
+    height: 56vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+#elems6{
+    width: 30%;
+    height: 100%;
+}
+
+#elems6 .image-conatainer{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#elems6 .image-conatainer:hover img{
+    scale: 1.2;
+    transition: all ease 0.6s;
+}
+
+#elems6 .image-conatainer img{
+    width: 100%;
+    height: 100%;
+}
+
+#elems6 h3{
+    font-size: 2vw;
+    font-family: 'conopi';
+    margin: 2vh 0 ;
+    font-weight: 100;
+    color: #1C1C19;
+}
+
+#elems6 h3 span{
+    background-color: #BC6E51;
+    border-radius: 1vw;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 100;
+    padding: 4px 10px;
+    margin-left: 1vw;
+}
+
+#elems6 p{
+    font-size: 1.5vw;
+    font-family: 'domain';
+    font-weight: 100;
+    color: #5D5A55;
+}
+
+#elems7{
+    width: 28%;
+    height: 100%;
+    text-align: center;
+    border-left: 2px solid #716E68 ;
+    border-right: 2px solid #716E68 ;
+    padding: 0 4vw;
+}
+
+#elems7 h1{
+    font-size: 4vw;
+    font-family: "conopi";
+    font-weight: 100;
+    margin-bottom: 1.5vw;
+    color: #1C1C19;
+}
+
+#elems7 h3{
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: 'editorial';
+    margin-bottom: 2vw;
+    color: #1C1C19;
+}
+
+#elems7 h4 span{
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-family: 'editorial';
+    color: #1C1C19;
+}
+
+#elems7 h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+    font-family: 'domain';
+    color: #5D5A55;
+}
+
+#elems8{
+    width: 30%;
+    height: 100%;
+}
+
+#elems8 .image-conatainer{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#elems8 .image-conatainer:hover img{
+    scale: 1.2;
+    transition: all ease 0.6s;
+}
+
+#elems8 .image-conatainer img{
+    width: 100%;
+    height: 100%;
+}
+
+#elems8 h3{
+    font-size: 2vw;
+    font-family: 'conopi';
+    margin: 2vh 0 ;
+    font-weight: 100;
+    color: #1C1C19;
+}
+
+#elems8 h3 span{
+    background-color: #BC6E51;
+    border-radius: 1vw;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 100;
+    padding: 4px 10px;
+    margin-left: 1vw;
+}
+
+#elems8 p{
+    font-size: 1.5vw;
+    font-family: 'domain';
+    font-weight: 100;
+    color: #5D5A55;
+}
+
+#page11{
+    width: 100%;
+    height: 34vh;
+    padding: 4% 2% ;
+    background-color: #C6BEB5;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overflow: hidden;
+    border-bottom: 2px solid #716E68 ;
+}
+
+#page11 h1{
+    font-size: 6vw;
+    display: inline-block;
+    font-family: 'domain';
+    font-weight: 100;
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    margin-right: 20px;
+}
+
+#page11 span{
+    background-color: #1C1C1A;
+    color: #C6BEB5;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+
+#page11Container{
+    width: 100%;
+    height: 20vh;
+}
+
+#page11Container:hover h1{
+    animation-play-state: paused;
+}
+
+#page12{
+    width: 100%;
+    height: 15vh;
+    padding: 2% 2%;
+    background-color: #C6BEB5;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page12Left{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: domain;
+}
+
+#page12Left h1{
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#page12Left img{
+    width: 10%;
+}
+
+#page12Left h2{
+    font-weight: 100;
+    color: #1C1C1A;
+}
+
+#page12Right{
+    width: 40%;
+
+}
+
+#page12Right ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1vw;
+}
+
+#page12Right ul li{
+    cursor: pointer;
+}
+
+#page12Right ul li a{
+    font-size: 2vw;
+    text-decoration: none;
+    font-weight: 100;
+    color: #000;
+    font-family: conopi;
+    color: #1C1C1A;
+}
